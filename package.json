@@ -1,0 +1,21 @@
+{
+  "name": "transform-ui5-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:exportType": "./node_modules/.bin/babel exportType --out-dir exportType --extensions \".ts\"",
+    "compile:exportType:ts": "./node_modules/.bin/babel exportTypeOnlyTS --out-dir exportTypeOnlyTS --extensions \".ts\"",
+    "compile:super": "./node_modules/.bin/babel super --out-dir super --extensions \".ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-decorators": "^7.7.0",
+    "@babel/preset-typescript": "^7.7.2",
+    "babel-preset-transform-ui5": "^7.0.2"
+  }
+}
